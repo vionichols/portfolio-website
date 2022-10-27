@@ -599,7 +599,6 @@ header.site-header {
     background:#0F2405;
     padding-top: 20px;
     display: flex;
-    position: absolute;
     bottom: 0px;
     width: 100%;
 }
