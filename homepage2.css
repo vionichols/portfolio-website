@@ -598,6 +598,7 @@ header.site-header {
 .site-footer {
     background:#0F2405;
     padding-top: 20px;
+    bottom: 0px;
 }
 
 
