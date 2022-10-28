@@ -1,6 +1,10 @@
 /* TYPOGRAPHY */ 
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Hammersmith+One&family=Jost:wght@400;500&family=Padauk:wght@400;700&family=Readex+Pro:wght@300;400&display=swap');
 
+html {
+    height: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: 'Inter Tight', Arial, sans-serif;
 }
@@ -601,6 +605,8 @@ header.site-header {
     padding-top: 20px;
     display: flex;
     width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
 
 
