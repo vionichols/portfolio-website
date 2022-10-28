@@ -92,18 +92,18 @@ header.site-header {
     margin-left: 40px;
 }
 
-.main-navigation ul {
+.navbar navbar-expand-md fixed-top ul {
     display: flex;
     list-style: none;
     margin-bottom: 0px;
 }
 
-.main-navigation ul li {
+.navbar navbar-expand-md fixed-top ul li {
     margin-right: 56px;
     margin-left: 56px; 
 }
 
-.main-navigation ul li {
+.navbar navbar-expand-md fixed-top ul li {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#F1E8DE;
