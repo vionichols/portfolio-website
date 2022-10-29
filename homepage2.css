@@ -51,6 +51,7 @@ a {
     background-image: url('Hero.png');
     background-size: cover;
     background-position: center center; 
+    margin-top: 96px;
 }
 
 .hero-section h1 {
@@ -80,10 +81,22 @@ header.site-header {
     align-items: center;
 }
 
-.site-header {
-    background-color:#0F2405;
-    width: 100%;
-    max-height: 72px;
+.navbar {
+    overflow: hidden;
+    background-color: #0F2405;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #F1E8DE;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    
 }
 
 .site-header img {
@@ -92,22 +105,23 @@ header.site-header {
     margin-left: 40px;
 }
 
-.navbar navbar-expand-md fixed-top ul {
+.navbar ul {
     display: flex;
     list-style: none;
     margin-bottom: 0px;
 }
 
-.navbar navbar-expand-md fixed-top ul li {
+.navbar ul li {
     margin-right: 56px;
     margin-left: 56px; 
 }
 
-.navbar navbar-expand-md fixed-top ul li {
+.navbar ul li {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     color:#F1E8DE;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 
@@ -153,6 +167,7 @@ header.site-header {
 .about .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .about .main-content h2 {
@@ -205,6 +220,7 @@ header.site-header {
 .resume .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .resume .main-content h2 {
@@ -260,6 +276,7 @@ header.site-header {
 .portfolio .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .portfolio h2 {
@@ -304,6 +321,7 @@ header.site-header {
 .contact .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .contact .main-content h2 {
@@ -354,6 +372,7 @@ header.site-header {
 .cdwpasr .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .cdwpasr h2 {
@@ -398,6 +417,7 @@ header.site-header {
 .rbhtr .main-content {
     margin-left: 120px;
     margin-right:120px;
+    margin-top: 120px;
 }
 
 .rbhtr h2 {
@@ -440,6 +460,7 @@ header.site-header {
 .ocsr .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .ocsr h2 {
@@ -494,6 +515,7 @@ header.site-header {
 .icr .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .icr h2 {
@@ -548,6 +570,7 @@ header.site-header {
 .gtrt .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .gtrt h2 {
