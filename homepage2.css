@@ -623,13 +623,14 @@ a {
 
 /* FOOTER */
 
-.site-footer {
-    background:#0F2405;
-    padding-top: 20px;
-    display: flex;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0F2405;
+  color: #F1E8DE;
+  text-align: center;
 }
 
 
