@@ -35,11 +35,16 @@ body {
     align-self: flex-end;
     font-weight: bold;
     text-transform: uppercase;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
 a {
     color:#F1E8DE;
+}
+
+.navbar-toggler {
+    color: #F1E8DE;
 }
 
 
@@ -117,11 +122,15 @@ a {
 }
 
 .navbar ul li {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 16px;
     color:#F1E8DE;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.navbar-right {
+    float: right;
 }
 
 
@@ -130,15 +139,16 @@ a {
 
 .homepage .project {
     background-color:#0F2405;
-    padding:20px 20px 52px 20px;
+    padding:20px 20px 20px 20px;
     margin-top: 24px;
     display:flex;
     flex-direction:column;
-    height:420px;
+    min-height:420px;
+    justify-content: space-between;
 }
 .homepage .project img {
     width: 100%;
-    height: 240px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -149,6 +159,7 @@ a {
 .homepage .main-content .project h2 {
     font-size: 40px;
     font-weight: bold; 
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#F1E8DE;
     text-transform: uppercase;
     display: flex;
@@ -159,6 +170,7 @@ a {
 .homepage .main-content .project p {
     font-size: 14px;
     font-weight: 400;
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#F1E8DE;
 }
 
@@ -172,7 +184,7 @@ a {
 .about .main-content h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     text-transform: uppercase;
     color:#0F2405;
     margin-top: 20px;
@@ -180,7 +192,7 @@ a {
 
 .about .main-content p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     font-weight: 400;
     color:#0F2405;
 
@@ -188,7 +200,7 @@ a {
 
 .about .main-content h4 {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-weight: 400px;
     color:#F1E8DE;
     list-style: none;
@@ -211,6 +223,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
 }
 
 
@@ -223,7 +236,7 @@ a {
 }
 
 .resume .main-content h2 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size:40px;
     font-weight:bold;
     text-transform: uppercase;
@@ -232,38 +245,35 @@ a {
 }
 
 .resume .main-content h3 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 24px;
-    font-weight: bold;
     text-transform: uppercase;
     color:#0F2405;
     margin-top: 20px;
 }
 
 .resume .main-content h4 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color:#0F2405;
 }
 
 .resume .main-content h5 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     font-size: 14px;
-    font-weight:bold;
     color:#0F2405;
 }
 
 .resume .main-content p {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro, Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: 400;
     color:#0F2405;
     
 }
 
 .resume .main-content ul li {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     color:#0F2405;
@@ -279,7 +289,7 @@ a {
 }
 
 .portfolio h2 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
@@ -288,9 +298,8 @@ a {
 }
 
 .portfolio h3 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 24px;
-    font-weight:bold;
     text-transform: uppercase;
     color:#0F2405;
     margin-top: 20px;
@@ -305,14 +314,16 @@ a {
     margin-left: 0;
 }
 
-.portfolio .category .container p {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color:#F1E8DE;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+.portfolio .category .container a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
+    color: #F1E8DE;
+    text-transform: uppercase;
+    align-content: center;
+    
 }
 
 /* CONTACT */
@@ -326,7 +337,7 @@ a {
 .contact .main-content h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     text-transform: uppercase;
     color:#0F2405;
     margin-top: 20px;
@@ -334,15 +345,13 @@ a {
 
 .contact .main-content p {
     font-size: 20px;
-    font-weight: 400;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
 .contact .main-content h4{
     font-size: 16px;
-    font-weight: 400;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#F1E8DE;
     list-style:none;
     display: flex;
@@ -364,6 +373,8 @@ a {
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
+    color: #F1E8DE;
 }
 
 /* CDWPASR */
@@ -377,7 +388,7 @@ a {
 .cdwpasr h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -386,7 +397,7 @@ a {
 .cdwpasr h4 {
     font-size: 20px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -394,7 +405,7 @@ a {
 
 .cdwpasr ul li {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     list-style: none;
 }
@@ -405,7 +416,7 @@ a {
 
 .cdwpasr p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 
 }
@@ -422,7 +433,7 @@ a {
 .rbhtr h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform:uppercase;
     margin-top: 20px;
@@ -431,7 +442,7 @@ a {
 .rbhtr h4 {
     font-size: 20px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -443,14 +454,14 @@ a {
 
 .rbhtr ul li {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     list-style: none;
 }
 
 .rbhtr p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
@@ -465,7 +476,7 @@ a {
 .ocsr h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform:uppercase;
     margin-top: 20px;
@@ -474,7 +485,7 @@ a {
 .ocsr h4 {
     font-size: 20px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -482,14 +493,14 @@ a {
 
 .ocsr ul li {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     list-style: none;
 }
 
 .ocsr p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
@@ -520,7 +531,7 @@ a {
 .icr h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform:uppercase;
     margin-top: 20px;
@@ -529,7 +540,7 @@ a {
 .icr h4 {
     font-size: 20px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -537,14 +548,14 @@ a {
 
 .icr ul li {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     list-style: none;
 }
 
 .icr p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
@@ -575,7 +586,7 @@ a {
 .gtrt h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform:uppercase;
     margin-top: 20px;
@@ -584,7 +595,7 @@ a {
 .gtrt h4 {
     font-size: 20px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     text-transform: uppercase;
     margin-top: 20px;
@@ -592,14 +603,14 @@ a {
 
 .gtrt ul li {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
     list-style: none;
 }
 
 .gtrt p {
     font-size: 16px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color:#0F2405;
 }
 
@@ -622,18 +633,20 @@ a {
 
 /* FOOTER */
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #0F2405;
-  text-align: center;
+.site-footer {
+    background-color: #0F2405;
+}
+
+.site-footer .container {
+    padding: 20px;
+    color: #F1E8DE;
+    margin-top: 0em;
+    width: 100%;
 }
 
 
 .site-footer h3 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -642,14 +655,14 @@ a {
 }
 
 .site-footer h4 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     color:#F1E8DE;
 }
 .site-footer ul li {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
     font-size:16px;
     font-weight:bold;
     text-transform:uppercase;
