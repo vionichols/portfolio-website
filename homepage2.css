@@ -212,7 +212,7 @@ a {
     height: 100%;
 }
 
-.about .container {
+.about .main-content .container {
     background-color:#0F2405;
     height: 80px;
     width: 320px;
