@@ -314,18 +314,17 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .portfolio .category .container a {
-    display:flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
-    font-family: NeueHaasGroteskDisp Pro Md, Helvetica, sans-serif;
+    font-family: NeueHaasGroteskText Pro Md, Helvetica, sans-serif;
     color: #F1E8DE;
     text-transform: uppercase;
-    align-content: center;
-    
 }
 
 /* CONTACT */
