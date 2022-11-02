@@ -110,7 +110,11 @@ a {
     height: 50%;
 }
 
-
+.site-footer {
+    flex: 1 1 auto;
+    bottom: 0px;
+    position: fixed;
+}
 
 
 /* HERO SECTION STYLES */
