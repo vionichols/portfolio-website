@@ -110,13 +110,7 @@ a {
     height: 50%;
 }
 
-.site-footer {
-    flex: 1 1 auto;
-    bottom: 0px;
-    position: fixed;
-    float: float-bottom;
-   
-}
+
 
 
 /* HERO SECTION STYLES */
@@ -703,6 +697,12 @@ a {
 
 
 /* FOOTER */
+
+.site-footer {
+    float: float-bottom;
+    position: absolute;
+    width: 100%;
+}
 
 .site-footer {
     background-color: #0F2405;
