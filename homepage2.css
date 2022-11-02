@@ -47,6 +47,26 @@ a {
     background-color: #F1E8DE;
 }
 
+/* SIZING */
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-content {
+    justify-content: space-between;
+    flex: 1 1 auto;
+    height: 50%;
+}
+
+.site-footer {
+    flex: 1 1 auto;
+    bottom: 0px;
+    position: relative;
+}
+
 
 /* HERO SECTION STYLES */
 
