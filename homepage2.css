@@ -48,56 +48,56 @@ a {
 }
 
 /* SIZING */
-.homepage {
+.homepage .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.about {
+.about .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.resume {
+.resume .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.portfolio {
+.portfolio .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.contact {
+.contact .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.ocsr {
+.ocsr .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.icr {
+.icr .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.gtrt {
+.gtrt .main-content {
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -108,6 +108,13 @@ a {
     justify-content: space-between;
     flex: 1 1 auto;
     height: 50%;
+    margin-bottom: 200px;
+}
+
+.site-footer {
+    flex: 1 1 auto;
+    bottom: 0px;
+    position: relative;
 }
 
 
@@ -698,11 +705,6 @@ a {
 
 /* FOOTER */
 
-.site-footer {
-    float: float-bottom;
-    position: absolute;
-    width: 100%;
-}
 
 .site-footer {
     background-color: #0F2405;
