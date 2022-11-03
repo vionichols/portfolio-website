@@ -62,11 +62,7 @@ a {
     margin-bottom: 200px;
 }
 
-.site-footer {
-    flex: 1 1 auto;
-    bottom: 0px;
-    position: fixed;
-}
+
 
 
 
@@ -552,6 +548,7 @@ a {
 .icr .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .icr h2 {
@@ -606,6 +603,7 @@ a {
 .gtrt .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .gtrt h2 {
@@ -658,9 +656,12 @@ a {
 
 /* FOOTER */
 
-
 .site-footer {
     background-color: #0F2405;
+    width: 100%;
+    flex: 1 1 auto;
+    bottom: 0px; 
+    position: relative;
 }
 
 .site-footer .container {
