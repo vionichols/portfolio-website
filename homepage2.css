@@ -55,50 +55,6 @@ a {
     flex-direction: column;
 }
 
-.about .main-content {
-    height: 100vh;
-    display: flex;
-    justify-content: space-below;
-    flex-direction: column;
-}
-
-.resume .main-content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio .main-content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact .main-content {
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.ocsr .main-content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.icr .main-content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.gtrt .main-content {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 .main-content {
     justify-content: space-between;
     flex: 1 1 auto;
@@ -109,7 +65,7 @@ a {
 .site-footer {
     flex: 1 1 auto;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
 }
 
 
