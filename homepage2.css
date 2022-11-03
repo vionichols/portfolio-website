@@ -58,21 +58,19 @@ a {
 .about .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-below;
     flex-direction: column;
 }
 
 .resume .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
 .portfolio .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -86,21 +84,18 @@ a {
 .ocsr .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
 .icr .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
 .gtrt .main-content {
     height: 100vh;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -114,7 +109,7 @@ a {
 .site-footer {
     flex: 1 1 auto;
     bottom: 0px;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -255,6 +250,7 @@ a {
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 120px;
+    margin-bottom: 200px;
 }
 
 .about .main-content h2 {
@@ -545,6 +541,7 @@ a {
 .ocsr .main-content {
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 120px;
 }
 
 .ocsr h2 {
